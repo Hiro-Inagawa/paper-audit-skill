@@ -188,6 +188,8 @@ Before submission:
 5. Venue details complete; do not leave "in press" or "forthcoming" for cited work that has since been published.
 6. Prefer venue version over arxiv preprint if both exist.
 7. DOIs included where available.
+8. **arXiv IDs do not encode a date after today.** arXiv IDs use the format YYMM.NNNNN where YYMM is the year and month of submission. If your bibliography contains an arXiv ID with a YYMM in the future (e.g., `arXiv:2604.12345` in April 2026), the citation is suspect. Either the paper does not exist, was fabricated, or the ID was mistyped. Verify directly on arxiv.org before submission.
+9. **Every cited work has been verified to exist.** For any citation introduced by AI-assisted drafting, search for the paper by title, author, and year on arxiv, Google Scholar, or the journal's site. Confirm the cited finding is in the primary source. See `12-ai-ethics.md` for hallucinated-citation mitigation.
 
 ---
 

@@ -63,9 +63,11 @@ Read word by word.
 
 If yes: cut or replace.
 
-### Pass 6. Citation
+### Pass 6. Citation and numerical consistency
 
-Read citations.
+Read citations and numbers.
+
+Citations:
 
 - Does every factual claim have a citation?
 - Is every citation load-bearing?
@@ -73,7 +75,17 @@ Read citations.
 - Is citation density appropriate for the section?
 - Are in-text citations and bibliography entries consistent?
 
-If no: add, remove, or correct citations.
+Numerical consistency across sections:
+
+- Do numerical claims in the Abstract match values reported in Methods and Results?
+- Do summary counts in the Introduction match the per-section totals elsewhere?
+- Do numbers in figure captions and tables match the numbers in prose?
+- If two analyses or pipelines produce slightly different counts (e.g., 6,803 vs 6,822 responses), is the discrepancy acknowledged explicitly?
+- If a value is presented as a range (e.g., "177-208"), is the source of each endpoint named?
+
+Numerical inconsistency across sections is one of the most common and damaging reviewer-attack surfaces. Reviewers who catch one inconsistency lose trust in all other numbers. Better to name the discrepancy once in Methods or Limitations than to let readers find it.
+
+If any check fails: add, remove, correct, or reconcile.
 
 ---
 

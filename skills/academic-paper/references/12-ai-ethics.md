@@ -142,12 +142,34 @@ If AI was used to analyze data or generate research artifacts:
 
 ### Hallucinated citations
 
-AI tools sometimes generate plausible-sounding citations that do not exist or do not support the stated claim.
+AI tools sometimes generate plausible-sounding citations that do not exist or do not support the stated claim. This is the single highest-risk failure mode for AI-assisted academic writing.
+
+**Concrete verification protocol:**
+
+After any AI-assisted drafting session that introduces new citations, before the draft goes to a reviewer or submission, check each citation by one of the following methods:
+
+1. **For arXiv preprints:** Search the arXiv ID directly on `arxiv.org`. Confirm the title, authors, and year match. **Check that the arXiv ID format YYMM.NNNNN does not encode a date after today.** Future-dated IDs are a common hallucination pattern.
+2. **For journal articles:** Search the DOI on `doi.org`. Confirm the full entry.
+3. **For conference papers:** Search the venue proceedings (ACM Digital Library, IEEE Xplore, OpenReview). Confirm the paper exists in the proceedings.
+4. **For books:** Search the ISBN on a library catalog or publisher site.
+5. **For web sources:** Follow the URL. Confirm content matches the claim.
+6. **For the finding itself:** Open the primary source. Find the specific page or section where the cited claim appears. If the finding is not in the source, the citation is wrong even if the paper exists.
+
+**Signals of a hallucinated citation:**
+
+- Author names that are plausible but do not appear on any search result.
+- arXiv IDs encoding future dates.
+- DOI-like strings that do not resolve.
+- Numerical figures (percentages, counts) that the paper title suggests but the abstract does not confirm.
+- Citation to a "recent study" where the specific source keeps shifting as you ask the AI for details.
 
 **Mitigation:**
+
 - Verify every citation against the primary source.
 - Do not trust AI-suggested citations without verification.
 - If you used AI to suggest citations, the mitigation is especially important.
+- For high-stakes papers, conduct a dedicated citation-verification pass before submission. Document the verification in a separate file (e.g., `CITATION-AUDIT.md`).
+- If a citation cannot be verified and the claim is load-bearing, replace the citation with a verified source or remove the claim.
 
 ### Hallucinated facts
 

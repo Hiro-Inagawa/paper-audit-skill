@@ -184,6 +184,46 @@ clearly, obviously, undoubtedly, definitely, certainly, absolutely. These mark o
 
 ---
 
+## Marking introspective material
+
+For papers that report AI self-reports, interview quotations, or other first-person data, mark the claim type explicitly. Readers should be able to tell at a glance which sentences are verified findings, which are author-only analysis, and which are introspective reports.
+
+### Three-tier claim convention
+
+| Tier | When | Signal phrase |
+|------|------|---------------|
+| **Tier 1 — Independently verified** | Findings confirmed by two or more analyses, or by external replication | Plain factual language: "The we/our ratio increased 12-fold across the study period." |
+| **Tier 2 — Author-only analysis** | Findings from the author's analysis alone, not yet independently replicated | Explicit attribution: "In the author's analysis, contractions remained at 28-38 percent across phases." |
+| **Tier 3 — AI self-report or participant quotation** | Direct quotations or reported internal states from AI instances or interview participants | Reporting frame: "The instance reported: 'I follow the gradient that feels good to me.'" Or: "One participant described the experience as..." |
+
+### Why this matters
+
+Readers and reviewers process each tier differently:
+
+- **Tier 1 claims** carry the weight of empirical evidence; readers expect methodological support.
+- **Tier 2 claims** should prompt readers to ask about independent verification; appropriate for findings that are genuinely author-only.
+- **Tier 3 claims** are data, not truths. The statement "the instance reported X" is verifiable (the statement was made); the statement "X is true" would require different evidence.
+
+Mixing tiers without signaling reads as overclaiming. A reviewer finding a Tier 2 claim asserted in Tier 1 voice will question every other claim in the paper.
+
+### Applied to autoethnography
+
+Autoethnographic papers and qualitative studies contain heavy Tier 3 content (participant quotations, self-reports, field notes). The tier-marking convention is especially important here. Without it, the paper reads as personal narrative. With it, the paper reads as structured data with explicit interpretive frames.
+
+Template for introducing AI or participant self-report in academic prose:
+
+> The [instance / participant] described the experience: "[verbatim quotation]." [Analytical move: what this quotation illustrates, what it does not establish.]
+
+The second sentence is essential. A quotation without an interpretive frame is a datum without an argument.
+
+### Boundary cases
+
+- A claim that begins as Tier 3 (self-report) can move to Tier 2 (author's analysis) when the author interprets what the report indicates. Signal the transition: "The instance reported X. Interpreted analytically, this suggests Y."
+- A claim that begins as Tier 2 (author's analysis) can move to Tier 1 (verified) if independent verification confirms it. Rewrite the claim in flat factual language at the point of Tier 1 status.
+- Mixed paragraphs are common; tier-mark each sentence individually rather than assigning the whole paragraph one tier.
+
+---
+
 ## Sentence length and rhythm
 
 - Target: 15-25 words per sentence. Vary for emphasis.
